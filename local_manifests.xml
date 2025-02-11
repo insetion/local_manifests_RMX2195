@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Generated using sounddrill31/actions_generate_local_manifests -->
+
+    <!-- Remotes -->
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="nurfinzmuhamad14" fetch="https://github.com/nurfinzmuhamad14" clone-depth="1" />
+    <remote name="UdyneO2" fetch="https://github.com/UdyneO2" clone-depth="1" />
+
+    <!-- Removals -->
+
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/realme/RMX2195" name="device_realme_RMX2195" remote="nurfinzmuhamad14" revision="lineage-20" />
+
+    <!-- Device - Common -->
+
+    <!-- Kernel -->
+    <project path="kernel/realme/RMX2195" name="kernel_realme_RMX2195" remote="nurfinzmuhamad14" revision="lineage-20" />
+
+    <!-- Vendor -->
+    <project path="vendor/realme/RMX2195" name="vendor_realme_RMX2195" remote="nurfinzmuhamad14" revision="android-11" />
+
+    <!-- Vendor - Common -->
+
+    <!-- Hardware -->
+    <project path="hardware/oplus" name="android_hardware_oplus" remote="LineageOS" revision="lineage-20" />
+
+    <!-- Other Repos -->
+    <project path="tmp" name="realme_vendor_qcom" remote="UdyneO2" revision="main" />
+
+</manifest>
