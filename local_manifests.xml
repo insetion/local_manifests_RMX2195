@@ -27,6 +27,6 @@
     <project path="hardware/oplus" name="android_hardware_oplus" remote="LineageOS" revision="lineage-20" />
 
     <!-- Other Repos -->
-    <project path="tmp" name="realme_vendor_qcom" remote="UdyneO2" revision="main" />
+    <project path="kernel/vendor" name="realme_vendor_qcom" remote="UdyneO2" revision="master" />
 
 </manifest>
