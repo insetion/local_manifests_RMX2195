@@ -23,7 +23,6 @@
     <!-- Vendor - Common -->
 
     <!-- Hardware -->
-    <project path="hardware/common" name="android_hardware_qcom-caf_common" remote="LineageOS" revision="lineage-18.1" />
     <!-- Other Repos -->
 
 </manifest>
