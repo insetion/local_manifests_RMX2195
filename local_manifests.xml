@@ -15,7 +15,7 @@
     <!-- Device - Common -->
 
     <!-- Kernel -->
-    <project path="kernel/realme/RMX2195" name="Strombreaker-prjkt" remote="nurfinzmuhamad14" revision="Stable-v0.3" />
+    <project path="kernel/realme/RMX2195" name="Strombreaker-prjkt" remote="nurfinzmuhamad14" revision="Stable-v0.4" />
 
     <!-- Vendor -->
     <project path="vendor/realme/RMX2195" name="vendor_realme_RMX2195" remote="nurfinzmuhamad14" revision="lineage-18.1" />
@@ -23,7 +23,7 @@
     <!-- Vendor - Common -->
 
     <!-- Hardware -->
-    
+    <project path="hardware/common" name="android_hardware_qcom-caf_common" remote="LineageOS" revision="lineage-18.1" />
     <!-- Other Repos -->
 
 </manifest>
