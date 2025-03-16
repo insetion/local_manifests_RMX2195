@@ -10,15 +10,15 @@
 
     <!-- Repos -->
     <!-- Device -->
-    <project path="device/realme/RMX2195" name="device_realme_RMX2195" remote="nurfinzmuhamad14" revision="lineage-18.1" />
+    <project path="device/realme/RMX2195" name="device_realme_RMX2195" remote="nurfinzmuhamad14" revision="Eleven" />
 
     <!-- Device - Common -->
 
     <!-- Kernel -->
-    <project path="kernel/realme/RMX2195" name="Strombreaker-prjkt" remote="nurfinzmuhamad14" revision="Stable-v0.4" />
+    <project path="kernel/realme/RMX2195" name="kernel_realme_sm4250" remote="nurfinzmuhamad14" revision="Eleven" />
 
     <!-- Vendor -->
-    <project path="vendor/realme/RMX2195" name="vendor_realme_RMX2195" remote="nurfinzmuhamad14" revision="lineage-18.1" />
+    <project path="vendor/realme/RMX2195" name="vendor_realme_RMX2195" remote="nurfinzmuhamad14" revision="Eleven" />
 
     <!-- Vendor - Common -->
 
