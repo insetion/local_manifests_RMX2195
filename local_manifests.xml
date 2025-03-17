@@ -1,28 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<!-- Generated using sounddrill31/actions_generate_local_manifests -->
 
-    <!-- Remotes -->
-    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
-    <remote name="nurfinzmuhamad14" fetch="https://github.com/nurfinzmuhamad14" clone-depth="1" />
-    
-    <!-- Removals -->
+ <!-- Remotes -->
+    <remote name="udin"
+            fetch="https://github.com/nurfinzmuhamad14/"
+            clone-depth="1" />
 
-    <!-- Repos -->
-    <!-- Device -->
-    <project path="device/realme/RMX2195" name="device_realme_RMX2195" remote="nurfinzmuhamad14" revision="Eleven" />
+    <remote name="hubgit"
+            fetch="https://github.com/"
+            clone-depth="1" />
 
-    <!-- Device - Common -->
+    <!-- <remote name="lab"
+            fetch="https://gitlab.com/dogpoopy"
+            clone-depth="1" /> -->
+ 
+ 
+ <!-- Trees -->
+ <project path="device/realme/RMX2195" name="device_realme_RMX2195" remote="udin" revision="Eleven" />
+ <project path="vendor/realme/RMX2195" name="vendor_realme_RMX2195" remote="udin" revision="Eleven" />
+ <!-- <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera-apollo" remote="lab" revision="main" /> -->
+ <project path="kernel/realme/RMX2195" name="kernel_realme_sm4250" remote="udin" revision="Eleven" />
 
-    <!-- Kernel -->
-    <project path="kernel/realme/RMX2195" name="kernel_realme_sm4250" remote="nurfinzmuhamad14" revision="Eleven" />
-
-    <!-- Vendor -->
-    <project path="vendor/realme/RMX2195" name="vendor_realme_RMX2195" remote="nurfinzmuhamad14" revision="Eleven" />
-
-    <!-- Vendor - Common -->
-
-    <!-- Hardware -->
-    <!-- Other Repos -->
-
+ <project path="external/chromium-webview/prebuilt/arm" name="LineageOS/android_external_chromium-webview_prebuilt_arm" remote="hubgit" revision="main" />
+ <project path="external/chromium-webview/prebuilt/arm64" name="LineageOS/android_external_chromium-webview_prebuilt_arm64" remote="hubgit" revision="main" />
+ <project path="external/chromium-webview/prebuilt/x86" name="LineageOS/android_external_chromium-webview_prebuilt_x86" remote="hubgit" revision="main" />
+ <project path="external/chromium-webview/prebuilt/x86_64" name="LineageOS/android_external_chromium-webview_prebuilt_x86_64" remote="hubgit" revision="main" />
+ 
 </manifest>
